@@ -13,7 +13,7 @@ namespace ConsoleApp1
         bool charging;
         Vector2 cords;
 
-        Town(string line)
+        public Town(string line)
         {
             string[] data = line.Split(';');
 
@@ -21,7 +21,11 @@ namespace ConsoleApp1
             this.population = int.Parse(data[1]);
             this.charging = Convert.ToBoolean(int.Parse(data[2]));
             this.cords = new Vector2(float.Parse(data[3]), float.Parse(data[4]));
+        }
 
+        public string Stringify()
+        {
+            return ($"{this.name}, {this.population}, {this.charging}, {this.cords}");
         }
     }
 }

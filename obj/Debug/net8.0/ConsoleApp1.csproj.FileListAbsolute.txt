@@ -12,3 +12,4 @@ C:\Users\szentjobi.gergo\Documents\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleAp
 C:\Users\szentjobi.gergo\Documents\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 C:\Users\szentjobi.gergo\Documents\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\szentjobi.gergo\Documents\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+C:\Users\szentjobi.gergo\Documents\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json
