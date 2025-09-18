@@ -13,7 +13,7 @@ namespace ConsoleApp1
         bool charging;
         Vector2 cords;
 
-        Town(string line)
+        public Town(string line)
         {
             string[] data = line.Split(';');
 
