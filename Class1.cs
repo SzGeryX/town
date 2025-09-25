@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         string name;
         int population;
-        bool charging;
+        public bool charging;
         Vector2 cords;
 
         public Town(string line)
@@ -23,9 +23,14 @@ namespace ConsoleApp1
             this.cords = new Vector2(float.Parse(data[3]), float.Parse(data[4]));
         }
 
-        public string Stringify()
+        public override string? ToString()
         {
-            return ($"{this.name}, {this.population}, {this.charging}, {this.cords}");
+            return $"{this.name}, {this.population}, {this.charging}, {this.cords}";
+        }
+
+        public double DistanceToTown(Town b)
+        {
+            return Vector2.Distance(this.cords, b.cords);
         }
     }
 }
